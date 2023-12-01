@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Poppins:wght@300;400;500;600;700&family=Ultra&display=swap');
+body{
+    font-family:'Poppins', sans-serif;
+}
+
+/* navbar styles */
+
+
+.navbar .navbar-brand{
+    font-weight: 700;
+    color: #133288;
+}
+
+.navbar .nav-link{
+    font-weight: 500;
+    color: #133288;
+    text-transform: capitalize;
+}
+
+
+/* hero styles */
+.hero .card-title{
+    margin-top: 125px;
+}
+.hero .card-title::before{
+    float: left;
+    transform: rotate(-7deg);
+    content: 'Capulus';
+    font-family: 'Ultra', serif;
+    font-size: 250%;
+    margin-left: 30px;
+    color: #fbec5d;
+    
+}
+
+.hero .lead::before{
+    float: left;
+    transform: rotate(-7deg);
+    content: 'A flavor Fit for a    ';
+    font-family: 'Merriweather', serif;
+    font-size: 175%;
+    background: rgba(0, 0, 0, .25);
+    color: #e3f2fd;
+    margin-top: 40px;
+    margin-left: 30px ;
+}
+.hero .lead::after{
+    float: left;
+    transform: rotate(-7deg);
+    content: '  KING';
+    font-family: 'Merriweather', serif;
+    font-size: 450%;
+    color: #fbec5d;
+}
+
+
+/* menu styles */
+.menu {
+    background-color: #f6f6f6;
+}
+
+.menu .section-title{
+    font-weight: 700;
+    color: #131313;
+}
+
+.menu .section-paragraf{
+    font-weight: 700;
+    color: #131313;
+}
+
+.menu .card {
+    background-color: #131313;
+    color: #fff;
+}
+
+.menu .card img {
+    border: 2px solid #fff;
+    height: 75%;
+}
+
+.menu .card .card-title {
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.menu .card .btn{
+    font-weight: 700;
+}
+
+
+/* Testimoni Styles */
+.testimoni {
+    background-image: url('assets/testimoni.jpg');
+    background-size: cover;
+    height: 450px;
+}
+
+.testimoni img{
+    margin-top: 50px;
+    width: 130px;
+}
+
+.testimoni .blockquote {
+    font-weight: 500;
+}
+
+.testimoni .blockquote-footer {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #131313;
+}
